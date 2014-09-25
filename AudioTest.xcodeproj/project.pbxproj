@@ -14,6 +14,7 @@
 		8FFE03DE19D39AE1004D79D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE03DD19D39AE1004D79D7 /* Images.xcassets */; };
 		8FFE03E119D39AE1004D79D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE03DF19D39AE1004D79D7 /* LaunchScreen.xib */; };
 		8FFE03ED19D39AE1004D79D7 /* AudioTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE03EC19D39AE1004D79D7 /* AudioTestTests.m */; };
+		8FFE03F719D3AD90004D79D7 /* MySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE03F619D3AD90004D79D7 /* MySong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8FFE03E619D39AE1004D79D7 /* AudioTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFE03EB19D39AE1004D79D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FFE03EC19D39AE1004D79D7 /* AudioTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTestTests.m; sourceTree = "<group>"; };
+		8FFE03F619D3AD90004D79D7 /* MySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MySong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		8FFE03D019D39AE1004D79D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FFE03F619D3AD90004D79D7 /* MySong.mp3 */,
 				8FFE03D119D39AE1004D79D7 /* Info.plist */,
 				8FFE03D219D39AE1004D79D7 /* main.m */,
 			);
@@ -202,6 +205,7 @@
 				8FFE03DC19D39AE1004D79D7 /* Main.storyboard in Resources */,
 				8FFE03E119D39AE1004D79D7 /* LaunchScreen.xib in Resources */,
 				8FFE03DE19D39AE1004D79D7 /* Images.xcassets in Resources */,
+				8FFE03F719D3AD90004D79D7 /* MySong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +350,7 @@
 				INFOPLIST_FILE = AudioTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +361,7 @@
 				INFOPLIST_FILE = AudioTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *audioControlButton;
+@property (nonatomic)BOOL isPlaying;
+
+- (IBAction)audioControlButtonPressed:(UIButton *)sender;
+- (IBAction)stopButtonPressed:(UIButton *)sender;
 
 @end
 
